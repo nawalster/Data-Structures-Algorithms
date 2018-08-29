@@ -16,7 +16,9 @@ int main(void) {
 	knapSack(W, n, val, wt);
   
 	return 0; 
-  //Max Value: 140
+  	/*************
+	Max Value: 140
+	**************/
 }
 
 int getMax(int x, int y) {
