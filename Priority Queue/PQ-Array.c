@@ -163,7 +163,7 @@ int main() {
               peek(&ptrQ);
               break;
           case 4:
-            if(isRegular(&ptrQ)){ //#Nawal: put inside isRegular function?
+            if(isRegular(&ptrQ)){ 
               printf("\nQueue is regular.\n");
             }else{
               printf("\nQueue is not regular; queue is priority queue.\n");
